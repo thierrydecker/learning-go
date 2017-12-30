@@ -21,6 +21,9 @@ func main() {
 	string03 := "Third string"
 	fmt.Printf("string03                                                     = %s\n", string03)
 
+	string04 := `Fourth string containing "" and ''`
+	fmt.Printf("string04                                                     = %s\n", string04)
+
 	fmt.Printf("\n")
 
 	// Integers
