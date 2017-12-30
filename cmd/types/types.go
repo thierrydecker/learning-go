@@ -57,4 +57,11 @@ func main() {
 	var integer10 rune = 2147483647
 	fmt.Printf("integer10 byte (alias for int32)                             = %d\n", integer10)
 
+	// Floats
+
+	var float01 float32 = 10.0 / 3.1
+	fmt.Printf("float01 ()                                              = %f\n", float01)
+	var float02 float64 = 100.0 / 3.1
+	fmt.Printf("float02 ()                                              = %f\n", float02)
+
 }
