@@ -60,8 +60,19 @@ func main() {
 	// Floats
 
 	var float01 float32 = 10.0 / 3.1
-	fmt.Printf("float01 ()                                              = %f\n", float01)
+	fmt.Printf("float01 ()                                                   = %f\n", float01)
 	var float02 float64 = 100.0 / 3.1
-	fmt.Printf("float02 ()                                              = %f\n", float02)
+	fmt.Printf("float02 ()                                                   = %f\n", float02)
+
+	fmt.Printf("\n")
+
+	// Booleans
+
+	fmt.Printf("true AND true                                                = %t\n", true && true)
+	fmt.Printf("false AND false                                              = %t\n", true && false)
+	fmt.Printf("true OR true                                                 = %t\n", true || true)
+	fmt.Printf("true OR false                                                = %t\n", true || false)
+	fmt.Printf("NOT true                                                     = %t\n", !true)
+	fmt.Printf("NOT false                                                    = %t\n", !false)
 
 }
