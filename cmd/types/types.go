@@ -21,6 +21,8 @@ func main() {
 	string03 := "Third string"
 	fmt.Printf("string03                                   = %s\n", string03)
 
+	fmt.Printf("\n")
+
 	// Integers
 
 	var integer01 int8 = 127
@@ -46,5 +48,13 @@ func main() {
 
 	var integer08 uint64 = 18446744073709551615
 	fmt.Printf("integer08 uint64 (0 to 18446744073709551615)                 = %d\n", integer08)
+
+	// Aliases for integers
+
+	var integer09 byte = 255
+	fmt.Printf("integer09 byte (alias for uint8)                             = %d\n", integer09)
+
+	var integer10 rune = 2147483647
+	fmt.Printf("integer10 byte (alias for int32)                             = %d\n", integer10)
 
 }
