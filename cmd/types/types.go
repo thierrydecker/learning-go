@@ -11,15 +11,15 @@ func main() {
 	// Declaration then assignment
 	var string01 string
 	string01 = "First string"
-	fmt.Printf("string01                                   = %s\n", string01)
+	fmt.Printf("string01                                                     = %s\n", string01)
 
 	// Declaration then assignment
 	var string02 string = "Second string"
-	fmt.Printf("string02                                   = %s\n", string02)
+	fmt.Printf("string02                                                     = %s\n", string02)
 
 	// Implicit declaration and assignment
 	string03 := "Third string"
-	fmt.Printf("string03                                   = %s\n", string03)
+	fmt.Printf("string03                                                     = %s\n", string03)
 
 	fmt.Printf("\n")
 
