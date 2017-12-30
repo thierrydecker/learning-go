@@ -23,6 +23,8 @@ func main() {
 
 	string04 := `Fourth string containing "" and ''`
 	fmt.Printf("string04                                                     = %s\n", string04)
+	fmt.Printf("Length of string04                                           = %d\n", len(string04))
+	fmt.Printf("Caracter at position 1 of string04                           = %d\n", string04[1])
 
 	fmt.Printf("\n")
 
