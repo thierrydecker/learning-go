@@ -20,4 +20,8 @@ func main() {
 	// No newline at the end
 	fmt.Printf("Thierry %s\n", "DECKER")
 
+	// Bytes printed and error code returned
+	n, status := fmt.Printf("Thierry %s\n", "DECKER")
+	fmt.Printf("%d bytes printed, error code %v returned", n, status)
+
 }
