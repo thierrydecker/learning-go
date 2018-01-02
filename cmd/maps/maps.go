@@ -29,13 +29,13 @@ func main() {
 	var key string
 	key = "N"
 	if name, ok := elements[key]; ok {
-		fmt.Printf("Key: %v, value: %v\n", name, elements[key])
+		fmt.Printf("Key: %v, value: %v\n", key, name)
 	} else {
 		fmt.Printf("Key: %v was not found\n", key)
 	}
 	key = "Z"
 	if name, ok := elements[key]; ok {
-		fmt.Printf("Key: %v, value: %v\n", name, elements[key])
+		fmt.Printf("Key: %v, value: %v\n", key, name)
 	} else {
 		fmt.Printf("Key: %v was not found\n", key)
 	}
