@@ -21,11 +21,10 @@ func main() {
 		},
 	}
 
-	for vehicule := range vehicules {
-		caracteristics := vehicules[vehicule]
+	for vehicule, caracteristics := range vehicules {
 		fmt.Printf("%v, ", vehicule)
-		for caracteristic := range caracteristics {
-			fmt.Printf("%v: %v, ", caracteristic, caracteristics[caracteristic])
+		for caracteristic, value := range caracteristics {
+			fmt.Printf("%v: %v, ", caracteristic, value)
 		}
 		fmt.Printf("\b\b\n")
 	}
