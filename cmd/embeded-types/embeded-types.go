@@ -28,6 +28,9 @@ func main() {
 	height := 1.
 	myParallelogram := Parallelogram{Rectangle{width, length}, height}
 	fmt.Printf(
-		"Parallelogram(%v,%v,%v) volume is %v",
+		"Parallelogram(%v,%v,%v) volume is %v\n",
 		width, length, height, myParallelogram.volume())
+	fmt.Printf(
+		"Parallelogram width is %v and length is %v\n",
+		myParallelogram.Rectangle.width, myParallelogram.Rectangle.length)
 }
