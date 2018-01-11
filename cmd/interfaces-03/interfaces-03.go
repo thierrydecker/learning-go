@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"math"
 )
 
 type Rectangle struct {
@@ -18,6 +19,10 @@ type Triangle struct {
 	height float64
 }
 
+type Circle struct {
+	radius float64
+}
+
 type Shape interface {
 	area() float64
 }
@@ -32,6 +37,10 @@ func (s Square) area() float64 {
 
 func (t Triangle) area() float64 {
 	return (t.base * t.height) / 2
+}
+
+func (c Circle) area() float64 {
+	return math.Pi * c.radius * c.radius
 }
 
 func totalArea(s []Shape) float64 {
@@ -51,10 +60,14 @@ func main() {
 	fmt.Printf(
 		"Area of square{side %f} is %f\n",
 		mySquare.side, mySquare.area())
+	myCircle := Circle{radius: 2}
+	fmt.Printf(
+		"Area of circle{radius %f} is %f\n",
+		myCircle.radius, myCircle.area())
 	myTriangle := Triangle{base: 10, height: 1}
 	fmt.Printf(
 		"Area of triangle{base: %f,height: %f} is %f\n",
 		myTriangle.base, myTriangle.height, myTriangle.area())
-	myShapes := []Shape{myRectangle, myTriangle, mySquare}
+	myShapes := []Shape{myRectangle, myTriangle, mySquare, myCircle}
 	fmt.Printf("Total area is %f\n", totalArea(myShapes))
 }
