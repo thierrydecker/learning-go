@@ -7,7 +7,7 @@ import (
 func main() {
 
 	array01 := [10]int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
-	array02 := [3][3]int{{11, 12, 13}, {21, 22, 23}, {31, 32, 33},}
+	array02 := [3][3]int{{11, 12, 13}, {21, 22, 23}, {31, 32, 33}}
 	string01 := "Welcome to Go!"
 
 	fmt.Printf("array01: %v\n", array01)

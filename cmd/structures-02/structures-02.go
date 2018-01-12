@@ -1,8 +1,8 @@
 package main
 
 import (
-	"math"
 	"fmt"
+	"math"
 )
 
 type Circle struct {
@@ -31,7 +31,7 @@ func main() {
 	fmt.Printf(
 		"Circle area (x: %v, y: %v, r: %v) is %v\n",
 		c.r, c.y, c.r, circleArea(c))
-	r := Rectangle{0,0,2,10}
+	r := Rectangle{0, 0, 2, 10}
 	r.x = 0
 	r.y = 0
 	r.l = 2

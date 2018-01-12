@@ -1,8 +1,8 @@
 package main
 
 import (
-	"math"
 	"fmt"
+	"math"
 )
 
 func distance(x1, y1, x2, y2 float64) float64 {

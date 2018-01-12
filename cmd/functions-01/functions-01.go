@@ -13,7 +13,6 @@ func average(elements []float64) float64 {
 }
 
 func main() {
-	elementsToAdd := []float64{10,20,11,12,35}
+	elementsToAdd := []float64{10, 20, 11, 12, 35}
 	fmt.Println(average(elementsToAdd))
 }
-
