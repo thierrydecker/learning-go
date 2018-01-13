@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"gitlab.com/learning-go/pkg/math"
+	"github.com/learning-go/pkg/math"
 )
 
 func main() {
