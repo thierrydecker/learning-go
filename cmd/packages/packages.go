@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/thierrydecker/learning-go/pkg/math"
+	"github.com/thierrydecker/learning-go/internal/math"
 )
 
 func main() {
